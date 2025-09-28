@@ -60,8 +60,7 @@ We developed a **Natural Language Processing (NLP) solution** that leverages a f
    ```bash
    git clone https://github.com/<your-username>/Complaint-Summarizer-and-Classifier-HuggingFace.git
    cd Complaint-Summarizer-and-Classifier-HuggingFace
-
-2.Create your environment 
-3. pip install -r requirements.txt 
+2. Create your environment
+3. pip install -r requirements.txt
 4. run python app.py
 5. Once the model is trained, run demo.py for testing
