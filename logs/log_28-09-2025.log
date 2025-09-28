@@ -1,0 +1,354 @@
+[2025-09-28 03:32:56,200]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:33:05,505]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:33:44,122]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:33:57,490]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:34:00,992]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:34:00,992]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:34:01,040]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:34:01,056]^;INFO^;71^;BertSummarizer.py^;finetune()^;Fine-tuned model already exists at models/summarizer. Loading it instead of fine-tuning.
+[2025-09-28 03:42:29,413]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:42:39,727]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:42:43,401]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:42:43,401]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:42:43,450]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:43:48,036]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:43:55,579]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:43:58,820]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:43:58,820]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:43:58,850]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:43:58,866]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 03:44:27,387]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:44:34,913]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:44:38,213]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:44:38,213]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:44:38,249]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:44:38,262]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 03:44:38,705]^;WARNING^;1732^;file_download.py^;_download_to_tmp_and_move()^;Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-09-28 03:49:28,995]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:49:37,727]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:49:41,775]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:49:41,775]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:49:41,807]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:49:41,823]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 03:51:48,733]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:51:57,338]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:52:00,429]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:52:00,429]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:52:00,469]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:52:00,469]^;INFO^;71^;BertSummarizer.py^;finetune()^;Fine-tuned model already exists at models/summarizer. Loading it instead of fine-tuning.
+[2025-09-28 03:54:02,475]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 03:54:09,953]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 03:54:13,130]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 03:54:13,130]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 03:54:13,164]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 03:54:13,178]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:00:53,270]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:01:09,239]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:01:13,051]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:01:13,052]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:01:13,106]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:01:13,149]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:02:25,727]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:02:37,123]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:02:43,260]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:02:43,260]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:02:43,342]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:02:43,401]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:06:44,688]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:06:56,821]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:07:00,791]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:07:00,791]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:07:00,839]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:07:00,870]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:07:04,530]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 04:12:08,211]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:12:17,615]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:12:21,238]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:12:21,238]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:12:21,286]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:12:21,301]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:12:24,371]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 04:23:46,633]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:23:56,458]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:24:00,578]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:24:00,578]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:24:00,620]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:24:00,652]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:24:04,055]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 04:26:42,445]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 04:30:45,997]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:30:55,277]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:30:58,510]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:30:58,510]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:30:58,554]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:30:58,575]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:31:01,022]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 04:33:41,609]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 04:36:27,075]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 04:39:18,110]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 04:39:18,421]^;INFO^;114^;BertSummarizer.py^;finetune()^;Training time for training the Bert Summarizer: 0h 8m 17.40s
+[2025-09-28 04:40:38,825]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 04:40:40,579]^;INFO^;127^;BertSummarizer.py^;finetune()^;
+Fine-tuning Bert Summarizer complete. Model saved to models/summarizer
+[2025-09-28 04:49:29,404]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 04:49:46,557]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 04:49:50,329]^;INFO^;26^;BertSummarizer.py^;__init__()^;training is going to be run on CPU
+[2025-09-28 04:49:50,329]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 04:49:50,394]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 04:49:50,416]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 04:49:53,424]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 04:52:34,188]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:04:09,431]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:04:19,559]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:04:22,642]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 05:04:22,642]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 05:04:22,683]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 05:04:22,691]^;INFO^;71^;BertSummarizer.py^;finetune()^;Fine-tuned model already exists at models/summarizer. Loading it instead of fine-tuning.
+[2025-09-28 05:06:59,754]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:07:09,414]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:07:12,956]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 05:07:12,956]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 05:07:12,994]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 05:07:13,019]^;INFO^;55^;BertSummarizer.py^;tokenize()^;Start tokenizing the dataset...
+[2025-09-28 05:07:16,119]^;INFO^;105^;BertSummarizer.py^;finetune()^;Starting fine-tuning...
+[2025-09-28 05:09:56,401]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:12:44,660]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:15:30,951]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:18:20,183]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:21:28,092]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:21:28,803]^;INFO^;114^;BertSummarizer.py^;finetune()^;Training time for training the Bert Summarizer: 0h 14m 12.68s
+[2025-09-28 05:22:48,924]^;INFO^;83^;rouge_scorer.py^;__init__()^;Using default tokenizer.
+[2025-09-28 05:22:51,231]^;INFO^;127^;BertSummarizer.py^;finetune()^;
+Fine-tuning Bert Summarizer complete. Model saved to models/summarizer
+[2025-09-28 05:47:18,126]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:47:28,322]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:47:28,753]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 05:47:28,753]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 05:47:28,766]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:47:30,937]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:47:37,693]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:47:38,035]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 05:47:38,037]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 05:49:08,113]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:08] "GET / HTTP/1.1" 200 -
+[2025-09-28 05:49:08,260]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:08] "GET /static/style.css HTTP/1.1" 200 -
+[2025-09-28 05:49:08,276]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-28 05:49:13,872]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:13] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2025-09-28 05:49:13,884]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-09-28 05:49:14,130]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-09-28 05:49:14,476]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:14] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=iw61IakjURiAIIgjoCux HTTP/1.1" 200 -
+[2025-09-28 05:49:14,727]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:49:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-09-28 05:51:18,857]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:51:18,859]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:51:18,859]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:51:20,227]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:51:22,744]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:51:30,468]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:51:38,893]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:51:39,233]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 05:51:39,233]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 05:51:39,239]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:51:41,310]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:51:48,056]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:51:48,399]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 05:51:48,401]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 05:52:12,569]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:12] "GET / HTTP/1.1" 200 -
+[2025-09-28 05:52:12,662]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 05:52:21,517]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 05:52:21,517]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 05:52:21,635]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 05:52:22,263]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 05:52:25,439]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 05:52:25,503]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:25] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[2025-09-28 05:52:25,919]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-09-28 05:52:25,921]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-09-28 05:52:26,165]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:52:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=2FrUCdBb9b252ScjPPyG HTTP/1.1" 200 -
+[2025-09-28 05:53:05,952]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:53:05,953]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:53:08,246]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:53:15,996]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:53:25,062]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:53:25,449]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 05:53:25,449]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 05:53:25,461]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:53:27,560]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:53:34,293]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:53:34,635]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 05:53:34,637]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 05:54:05,063]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 05:54:05,065]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 05:54:05,128]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 05:54:05,652]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 05:54:08,219]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 05:54:10,366]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 05:54:10,450]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\huggingface_hub\\file_download.py', reloading
+[2025-09-28 05:54:10,550]^;WARNING^;1732^;file_download.py^;_download_to_tmp_and_move()^;Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-09-28 05:54:13,715]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:54:16,296]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:54:26,030]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:54:27,579]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 05:54:27,581]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 05:54:31,785]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 05:54:31,785]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 05:54:31,824]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 05:54:32,561]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 05:54:34,318]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 05:54:36,439]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 05:54:36,696]^;WARNING^;1732^;file_download.py^;_download_to_tmp_and_move()^;Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2025-09-28 05:55:58,952]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 05:55:59,125]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 05:55:59] "POST / HTTP/1.1" 200 -
+[2025-09-28 05:58:52,836]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:58:52,836]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:58:52,836]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\demo.py', reloading
+[2025-09-28 05:58:55,164]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 05:58:57,628]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 05:59:12,653]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 05:59:13,485]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 05:59:13,489]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:03:02,079]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:03:10,034]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:03:10,342]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 06:03:10,342]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 06:03:10,350]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:03:12,480]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:03:19,192]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:03:19,578]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:03:19,580]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:03:41,405]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\main_temp.py', reloading
+[2025-09-28 06:03:41,774]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\modules\\exception.py', reloading
+[2025-09-28 06:03:41,805]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\logging\\__init__.py', reloading
+[2025-09-28 06:03:41,808]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\os.py', reloading
+[2025-09-28 06:03:41,868]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\_compile.py', reloading
+[2025-09-28 06:03:41,879]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\_ops.py', reloading
+[2025-09-28 06:03:41,879]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\_subclasses\\__init__.py', reloading
+[2025-09-28 06:03:41,881]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\utils\\_python_dispatch.py', reloading
+[2025-09-28 06:03:41,884]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\datetime.py', reloading
+[2025-09-28 06:03:41,884]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\concurrent\\__init__.py', reloading
+[2025-09-28 06:03:41,910]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\huggingface_hub\\__init__.py', reloading
+[2025-09-28 06:03:41,913]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\huggingface_hub\\hf_api.py', reloading
+[2025-09-28 06:03:42,261]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\utils\\checkpoint.py', reloading
+[2025-09-28 06:03:42,274]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\torch\\autograd\\function.py', reloading
+[2025-09-28 06:03:42,280]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\huggingface_hub\\utils\\_typing.py', reloading
+[2025-09-28 06:03:42,280]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\site-packages\\huggingface_hub\\utils\\_validators.py', reloading
+[2025-09-28 06:03:42,282]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\anaconda3\\Lib\\genericpath.py', reloading
+[2025-09-28 06:03:43,429]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:03:45,942]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:03:54,751]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:03:55,182]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:03:55,184]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:03:57,946]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\finetune_bart.py', reloading
+[2025-09-28 06:03:58,007]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'D:\\Complaint Summarizer and classifier\\finetune_bart.py', reloading
+[2025-09-28 06:03:59,799]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:04:02,447]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:04:13,308]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:04:13,714]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:04:13,716]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:05:00,418]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:05:00] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:05:02,124]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:05:02] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:05:02,198]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:05:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:05:23,865]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 06:05:23,865]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 06:05:23,921]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 06:05:24,800]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 06:05:28,423]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 06:05:29,533]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 06:05:31,883]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 06:05:32,267]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:05:32] "POST / HTTP/1.1" 200 -
+[2025-09-28 06:05:32,376]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:05:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:06:15,290]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:06:15] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:06:22,253]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\.cache\\huggingface\\modules\\evaluate_modules\\metrics\\__init__.py', reloading
+[2025-09-28 06:06:22,269]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 06:06:22,270]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 06:06:22,375]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 06:06:25,321]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:06:28,133]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:06:42,082]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:06:42,604]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:06:42,607]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:06:47,699]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 06:06:47,699]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 06:06:47,737]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 06:06:48,491]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 06:06:51,618]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 06:06:55,115]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 06:06:59,815]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 06:07:00,303]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:07:00] "POST / HTTP/1.1" 200 -
+[2025-09-28 06:07:00,495]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:07:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:09:37,214]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:09:37] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:09:37,223]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:09:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:09:43,944]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\.cache\\huggingface\\modules\\evaluate_modules\\metrics\\__init__.py', reloading
+[2025-09-28 06:09:43,956]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 06:09:43,957]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 06:09:44,058]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 06:09:46,627]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:09:49,165]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:10:02,206]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:10:03,353]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:10:03,357]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:10:08,405]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 06:10:08,405]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 06:10:08,477]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 06:10:09,058]^;INFO^;158^;BertSummarizer.py^;load_model()^;Loaded pre-trained summarization model.
+[2025-09-28 06:10:11,914]^;INFO^;44^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 06:10:13,849]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 06:10:15,678]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 06:10:16,073]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:10:16] "POST / HTTP/1.1" 200 -
+[2025-09-28 06:10:16,260]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:11:20,378]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:20] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:11:20,446]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:11:28,412]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:28] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:11:28,720]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:11:29,271]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:29] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:11:29,282]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:11:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:11:43,876]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:11:53,012]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:11:53,350]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 06:11:53,350]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 06:11:53,361]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 06:11:55,472]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 06:12:02,549]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 06:12:02,899]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 06:12:02,901]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 06:12:02,941]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:12:02] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:12:03,080]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:12:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:13:25,088]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:13:25] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:13:25,098]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:13:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 06:13:26,153]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:13:26] "GET / HTTP/1.1" 200 -
+[2025-09-28 06:13:26,455]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 06:13:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

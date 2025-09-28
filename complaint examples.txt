@@ -1,0 +1,86 @@
+import os
+import torch
+from finetune_bart_oop import BartSummarizer
+from classify_complaints_oop import ComplaintClassifier
+
+def summarize_and_classify_new_complaints(new_complaints_list):
+    """
+    Summarizes and classifies a list of new complaints.
+    
+    Args:
+        new_complaints_list (list): A list of new complaint narratives (strings).
+        
+    Returns:
+        list: A list of dictionaries, each containing the original complaint,
+              its summary, and its classification.
+    """
+    candidate_labels = [
+        "Credit Card",
+        "Mortgage",
+        "Bank Account or Service",
+        "Money Transfer",
+        "Prepaid Card",
+        "Student Loan",
+        "Vehicle Loan",
+        "Consumer Loan",
+        "Credit Reporting",
+    ]
+    
+    try:
+        # Load the summarization pipeline from the fine-tuned model
+        summarizer_instance = BartSummarizer()
+        summarization_pipeline = summarizer_instance.get_summarization_pipeline()
+        
+        # Instantiate the zero-shot classifier
+        classifier_instance = ComplaintClassifier()
+    except FileNotFoundError:
+        print("Error: Fine-tuned model not found. Please run `finetune_bart_oop.py` first.")
+        return None
+
+    print("Generating summaries and classifications for new complaints...")
+    
+    results = []
+    
+    for complaint in new_complaints_list:
+        # Step 1: Generate the summary
+        summary = summarization_pipeline(
+            complaint,
+            max_length=150,
+            min_length=30,
+            length_penalty=2.0,
+            num_beams=4,
+            truncation=True
+        )[0]['summary_text']
+        
+        # Step 2: Classify the generated summary
+        classification_result = classifier_instance.classify(summary, candidate_labels)
+        
+        # Extract the best label and its score
+        predicted_label = classification_result['labels'][0]
+        prediction_score = classification_result['scores'][0]
+        
+        results.append({
+            "original_complaint": complaint,
+            "summary": summary,
+            "classification": predicted_label,
+            "score": prediction_score
+        })
+        
+    return results
+
+if __name__ == "__main__":
+    # Sample new complaints
+    new_complaints = [
+        "I was charged a $30 overdraft fee on my account despite having enough funds. It took me three calls to customer service to get the fee reversed. This is a common issue with this bank, and the process is unnecessarily difficult.",
+        "My credit card was used for fraudulent purchases totaling over $500. I reported the activity immediately, but the bank's fraud department was slow to respond. I had to wait weeks for a replacement card.",
+        "I tried to send a money transfer to a friend, but the transaction failed. The app gave a vague error message. Customer support was not helpful and could not provide a reason for the failure. The funds were held for several days before being returned.",
+    ]
+    
+    summary_and_classification_results = summarize_and_classify_new_complaints(new_complaints)
+    
+    if summary_and_classification_results:
+        for result in summary_and_classification_results:
+            print("\n--- Complaint Analysis ---")
+            print(f"Original: {result['original_complaint']}")
+            print(f"Summary: {result['summary']}")
+            print(f"Predicted Category: {result['classification']} (Score: {result['score']:.2f})")
