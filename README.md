@@ -60,3 +60,6 @@ We developed a **Natural Language Processing (NLP) solution** that leverages a f
    ```bash
    git clone https://github.com/<your-username>/Complaint-Summarizer-and-Classifier-HuggingFace.git
    cd Complaint-Summarizer-and-Classifier-HuggingFace
+
+2. run python app.py
+3. Once the model is trained, run demo.py for testing
