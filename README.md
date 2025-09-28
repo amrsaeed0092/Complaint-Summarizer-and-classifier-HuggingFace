@@ -1,4 +1,4 @@
-# Complaint Summarizer and Classifier 🚀  
+# Complaint Summarizer and Classifier Using Transformers from Hugginh Face Hub 🚀  
 
 ## 📌 Project Summary  
 This project builds an **AI-powered system** that automatically **summarizes** and **classifies** customer complaints.  
