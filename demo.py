@@ -32,11 +32,12 @@ def summarize_and_classify_new_complaints(new_complaints_list):
     
     try:
         # Load the summarization pipeline from the fine-tuned model
-        summarizer_instance = BartSummarizer()
+        summarizer_instance = BartSummarizer(model_name=AppConfig.SUMM_MODELNAME, saved_model_dir=AppConfig.SUM_MODEL_DIR)
+        
         summarization_pipeline = summarizer_instance.get_summarization_pipeline()
         
         # Instantiate the zero-shot classifier
-        classifier_instance = ComplaintClassifier()
+        classifier_instance = ComplaintClassifier(model_name=AppConfig.CLASSIFIER_MODELNAME)
     except Exception as e:
         logger.logging.info("Error: Fine-tuned model not found. Please run `finetune_bart_oop.py` first.")
         return None
@@ -54,10 +55,12 @@ def summarize_and_classify_new_complaints(new_complaints_list):
                 min_length=30,
                 length_penalty=2.0,
                 num_beams=4,
-                #padding="max_length",
                 truncation=True
             )[0]['summary_text']
         else: 
+            summary = complaint
+        
+        if not summary:
             summary = complaint
             
         # Step 2: Classify the generated summary
@@ -74,23 +77,29 @@ def summarize_and_classify_new_complaints(new_complaints_list):
             "score": prediction_score
         })
         
+        print("results is : ",results)
     return complaint, summary, predicted_label, prediction_score
 
 
 @app.route("/", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def index():
-    dialog=[]
     if request.method == "POST":
-        dialog.append ( request.form.get("dialog"))
-        for item in dialog:
-            if not item:
-                return render_template("index.html", error="Please enter the customer/representative dialog here...")
-            
-        complaint, summary, predicted_label, prediction_score = summarize_and_classify_new_complaints(dialog)
-        print(prediction_score)
-        #return result
-        return render_template("result.html", dialog=complaint, summary=summary, classification=predicted_label)
+        dialog_text = request.form.get("dialog", "").strip()
+        if not dialog_text:
+            return render_template("index.html", error="Please enter the customer/representative dialog here...")
+
+        # summarize_and_classify expects a list of complaints
+        complaint, summary, predicted_label, prediction_score = summarize_and_classify_new_complaints([dialog_text])
+
+        return render_template(
+            "result.html",
+            dialog=complaint,
+            summary=summary,
+            classification=predicted_label
+        )
     return render_template("index.html")
+
 
 
 if __name__ == "__main__":

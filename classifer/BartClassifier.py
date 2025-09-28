@@ -28,22 +28,8 @@ class ComplaintClassifier:
         """
         Classifies the given text into one of the candidate labels.
         
-        Args:
-            text (str): The text to classify.
-            candidate_labels (list): A list of possible classification labels.
-            
-        Returns:
-            dict: The classification result.
         """
         self.load_classifier()
         # Ensure input is a list, as the pipeline expects it
         return self.classifier(text, candidate_labels)
 
-'''if __name__ == "__main__":
-    # Example usage for the classifier
-    classifier = ComplaintClassifier()
-    sample_text = "I was charged an incorrect fee on my credit card."
-    labels = ["Credit Card", "Mortgage", "Bank Account or Service"]
-    result = classifier.classify(sample_text, labels)
-    print(result)
-'''
