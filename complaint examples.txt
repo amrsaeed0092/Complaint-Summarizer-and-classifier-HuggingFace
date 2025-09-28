@@ -4,3 +4,6 @@
         "I tried to send a money transfer to a friend, but the transaction failed. The app gave a vague error message. Customer support was not helpful and could not provide a reason for the failure. The funds were held for several days before being returned.",
     ]
     
+
+example =
+"I recently discovered that my credit card had been used for several fraudulent purchases, adding up to more than $500. As soon as I noticed the charges, I contacted the bank and reported the issue right away, expecting that it would be handled quickly. Unfortunately, the fraud department took a long time to get back to me, and during that period I felt very anxious and uncertain about my account’s security. To make matters worse, it took weeks before I finally received a replacement card, which left me unable to make essential purchases and caused a lot of inconvenience in my daily life."
