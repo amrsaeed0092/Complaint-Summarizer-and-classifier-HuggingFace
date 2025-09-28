@@ -664,3 +664,48 @@ Fine-tuning Bert Summarizer complete. Model saved to models/summarizer
 [2025-09-28 13:45:54,451]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
 [2025-09-28 13:45:54,742]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 13:45:54] "POST / HTTP/1.1" 200 -
 [2025-09-28 13:45:54,869]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 13:45:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 14:35:57,095]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 14:36:18,810]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 14:36:19,650]^;INFO^;97^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7777
+[2025-09-28 14:36:19,650]^;INFO^;97^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2025-09-28 14:36:19,672]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 14:36:25,214]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 14:37:02,342]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 14:37:05,183]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 14:37:05,191]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 14:37:05,490]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:37:05] "GET / HTTP/1.1" 200 -
+[2025-09-28 14:37:05,505]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:37:05] "GET / HTTP/1.1" 200 -
+[2025-09-28 14:37:05,825]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:37:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 14:37:46,697]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 14:37:46,697]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 14:37:46,890]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 14:37:57,354]^;INFO^;155^;BertSummarizer.py^;load_model()^;Loaded fine-tuned summarization model.
+[2025-09-28 14:37:57,362]^;INFO^;45^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 14:38:05,862]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 14:38:14,337]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 14:38:15,828]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:38:15] "POST / HTTP/1.1" 200 -
+[2025-09-28 14:38:16,290]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:38:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 14:39:51,777]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:39:51] "GET / HTTP/1.1" 200 -
+[2025-09-28 14:39:51,922]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:39:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-09-28 14:40:02,389]^;INFO^;97^;_internal.py^;_log()^; * Detected change in 'C:\\Users\\engam\\.cache\\huggingface\\modules\\evaluate_modules\\metrics\\__init__.py', reloading
+[2025-09-28 14:40:02,400]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 14:40:02,400]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 14:40:02,576]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 14:40:08,423]^;INFO^;97^;_internal.py^;_log()^; * Restarting with watchdog (windowsapi)
+[2025-09-28 14:40:14,082]^;INFO^;112^;config.py^;<module>()^;TensorFlow version 2.20.0 available.
+[2025-09-28 14:40:53,413]^;WARNING^;149^;module_wrapper.py^;_tfmw_add_deprecation_warning()^;From C:\Users\engam\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[2025-09-28 14:40:55,521]^;WARNING^;97^;_internal.py^;_log()^; * Debugger is active!
+[2025-09-28 14:40:55,526]^;INFO^;97^;_internal.py^;_log()^; * Debugger PIN: 522-795-395
+[2025-09-28 14:41:05,695]^;INFO^;24^;BertSummarizer.py^;__init__()^;CUDA is detected, training is going to be run on GPU
+[2025-09-28 14:41:05,695]^;INFO^;50^;ingestion.py^;download_save_dataset()^;Data already exists in data\TweetSumm-tuned !, another download is not necessary.
+[2025-09-28 14:41:05,892]^;INFO^;63^;ingestion.py^;load_data()^;Data loaded successfully!
+[2025-09-28 14:41:15,467]^;INFO^;155^;BertSummarizer.py^;load_model()^;Loaded fine-tuned summarization model.
+[2025-09-28 14:41:15,468]^;INFO^;45^;demo.py^;summarize_and_classify_new_complaints()^;Generating summaries and classifications for new complaints...
+[2025-09-28 14:41:24,853]^;INFO^;19^;BartClassifier.py^;load_classifier()^;Loading zero-shot classification pipeline...
+[2025-09-28 14:41:34,171]^;INFO^;25^;BartClassifier.py^;load_classifier()^;Zero-shot classifier loaded.
+[2025-09-28 14:41:35,496]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:41:35] "POST / HTTP/1.1" 200 -
+[2025-09-28 14:41:36,176]^;INFO^;97^;_internal.py^;_log()^;127.0.0.1 - - [28/Sep/2025 14:41:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

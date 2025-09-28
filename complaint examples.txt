@@ -1,7 +1,7 @@
  new_complaints = [
         "I was charged a $30 overdraft fee on my account despite having enough funds. It took me three calls to customer service to get the fee reversed. This is a common issue with this bank, and the process is unnecessarily difficult.",
         "My credit card was used for fraudulent purchases totaling over $500. I reported the activity immediately, but the bank's fraud department was slow to respond. I had to wait weeks for a replacement card.",
-        "I tried to send a money transfer to a friend, but the transaction failed. The app gave a vague error message. Customer support was not helpful and could not provide a reason for the failure. The funds were held for several days before being returned.",
+        "Ugh, it was such a frustrating experience! I was just trying to send some money over to a friend, you know, a simple transfer, and the whole thing just bombed. The app was no help at all – just flashed some super vague error message that told me absolutely nothing. So, of course, I called customer support, thinking they'd clear things up, but honestly, they were pretty useless. They couldn't even tell me why the transfer failed, which was the whole point of my call! And to top it all off, my money was just stuck in limbo for a few days before it finally, mercifully, found its way back to me. What a headache!",
     ]
     
 
