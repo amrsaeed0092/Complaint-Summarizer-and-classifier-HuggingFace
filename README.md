@@ -10,7 +10,7 @@ Manually processing customer complaints is time-consuming for businesses. Employ
 We developed a **Natural Language Processing (NLP) solution** that leverages a fine-tuned **BART sequence-to-sequence model** to:  
 
 - **Complaint Summarization**: Generate concise summaries of customer complaints, enabling staff to quickly grasp the key issues.  
-- **Complaint Classification**: Automatically assign complaints to categories such as **billing**, **technical support**, or **shipping**, ensuring fast routing to the right team.  
+- **Complaint Classification**: Automatically assign complaints to categories such as **credit cards**, **mortgage**, or **payments**, ensuring fast routing to the right team.  
 
 ---
 
